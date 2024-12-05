@@ -86,15 +86,17 @@ sudo apt install php libapache2-mod-php php-mysql
 
 Volvemos a copiar el archivo por si la volvemos a liar.
 
-![Imagen 21](Fotos/21.png)
+![Imagen 11](Fotos/11.png)
 
 En `DocumentRoot`, la ruta donde tiene que buscar el `index.php`.
 
-![Imagen 22](Fotos/22.png)
+![Imagen 12](Fotos/12.png)
 
 Activamos el sitio que acabamos de configurar.
 
-![Imagen 23](Fotos/23.png)
+![Imagen 13](Fotos/13.png)
+![Imagen 14](Fotos/14.png)
+
 
 Copiamos el repositorio git donde está la aplicación que queremos implementar en la página web.
 
