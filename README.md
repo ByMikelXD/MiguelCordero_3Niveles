@@ -116,17 +116,19 @@ Le tenemos que dar permisos a la carpeta Apache1.
 
 Lo primero es instalar `mariadb-server`.
 
-![Imagen 30](Fotos/30.png)
+![Imagen 25](Fotos/25.png)
 
 Nos vamos al archivo `50-server.conf` y donde está el `bind-address` ponemos la IP del servidor MySQL.
 
-![Imagen 31](Fotos/31.png)
+![Imagen 26](Fotos/26.png)
 
 Entramos a la base de datos y metemos un usuario para la base de datos que hemos pasado antes.
 
-![Imagen 32](Fotos/32.png)
-![Imagen 33](Fotos/33.png)
-![Imagen 34](Fotos/34.png)
+![Imagen 27](Fotos/27.png)
+![Imagen 28](Fotos/28.png)
+![Imagen 28](Fotos/29.png)
+
+
 
 Si todo sale bien, cuando ponemos nuestro nombre de DNS, saldrá la página donde podemos ingresar, eliminar o editar los usuarios de la base de datos.
 
