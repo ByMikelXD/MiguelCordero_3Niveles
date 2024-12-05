@@ -112,15 +112,6 @@ Le tenemos que dar permisos a la carpeta Apache1.
 
 ![Imagen 24](Fotos/24.png)
 
-
-Instalamos `mariadb-client` para conectarnos al servidor de base de datos.
-
-![Imagen 28](Fotos/28.png)
-
-Pasamos la base de datos al servidor MySQL.
-
-![Imagen 29](Fotos/29.png)
-
 # Configuración del servidor de base de datos (MySQL)
 
 Lo primero es instalar `mariadb-server`.
