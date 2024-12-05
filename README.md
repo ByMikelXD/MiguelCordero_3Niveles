@@ -36,7 +36,7 @@ Primero, creamos nuestras VPC donde vamos a alojar nuestras dos subredes: la sub
 ![Imagen 4](Fotos/4.png)
 
 
-Creamos las instancias. Las instancias que he usado son Ubuntu.
+Creamos las instancias. Las instancias que he usado son Debian.
 
 ![Imagen 5](Fotos/5.png)
 ![Imagen 6](Fotos/6.png)
@@ -60,18 +60,18 @@ Se me olvidaba decir que tenemos que poner una puerta de enlace a Internet para 
 
 Copiamos el contenido del archivo default por si liamos y le ponemos un nombre para saber cuál es.
 
-![Imagen 13](Fotos/13.png)
+![Imagen 13](Fotos/11.png)
 
 A continuación, dentro del balanceador copiamos lo siguiente.
 
-![Imagen 14](Fotos/14.png)
+![Imagen 14](Fotos/12.png)
 
 Luego de copiar lo anterior, habilitamos el sitio web con `a2ensite`.
 
 Nos vamos a nuestro explorador y ponemos la IP del balanceador.
 
 # Resultado
-![Imagen 17](Fotos/17.png)
+![Imagen 17](Fotos/13.png)
 
 Pero como queremos que nos muestre la página con un certificado, vamos a instalar Certbot y configurar un nombre de dominio.
 
