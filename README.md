@@ -1,4 +1,4 @@
-# lamp_tres_niveles
+![image](https://github.com/user-attachments/assets/dd7a89c4-c965-4382-b851-bbaf88e36525)# lamp_tres_niveles
 ### Balanceador de carga con infraestructura LAMP en tres niveles.
 
 # Índice
@@ -89,31 +89,29 @@ sudo apt install php libapache2-mod-php php-mysql
 
 Volvemos a copiar el archivo por si la volvemos a liar.
 
-![Imagen 11](Fotos/11.png)
+![Imagen 21](Fotos/21.png)
 
 En `DocumentRoot`, la ruta donde tiene que buscar el `index.php`.
 
-![Imagen 1](Fotos/.png)
+![Imagen 22](Fotos/22.png)
 
 Activamos el sitio que acabamos de configurar.
 
-![Imagen 13](Fotos/13.png)
-![Imagen 14](Fotos/14.png)
-
+![Imagen 23](Fotos/23.png)
 
 Copiamos el repositorio git donde está la aplicación que queremos implementar en la página web.
 
-![Imagen 15](Fotos/15.png)
+![Imagen 19](Fotos/19.png)
 
-Luego vamos al archivo `config` en el Apache 1.
+Luego vamos al archivo `config` en el Apache1.
 
-![Imagen 26](Fotos/26.png)
+![Imagen 18](Fotos/18.png)
 
 Le tenemos que dar permisos a la carpeta Apache1.
 
-![Imagen 27](Fotos/27.png)
+![Imagen 20](Fotos/20.png)
 
-sudo systemctl restart apache2
+![Imagen 24](Fotos/24.png)
 
 
 Instalamos `mariadb-client` para conectarnos al servidor de base de datos.
@@ -142,4 +140,6 @@ Entramos a la base de datos y metemos un usuario para la base de datos que hemos
 
 Si todo sale bien, cuando ponemos nuestro nombre de DNS, saldrá la página donde podemos ingresar, eliminar o editar los usuarios de la base de datos.
 
-![Imagen 34](Fotos/35.png)
+![Imagen 100](Fotos/100.png)
+
+*Me ha dado un error con el wordpress '502gatewey' y he tenido que usar el cms de la primera practica*
