@@ -93,7 +93,7 @@ Volvemos a copiar el archivo por si la volvemos a liar.
 
 En `DocumentRoot`, la ruta donde tiene que buscar el `index.php`.
 
-![Imagen 12](Fotos/12.png)
+![Imagen 1](Fotos/.png)
 
 Activamos el sitio que acabamos de configurar.
 
