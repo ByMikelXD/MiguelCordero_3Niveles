@@ -71,7 +71,7 @@ Luego de copiar lo anterior, habilitamos el sitio web con `a2ensite`.
 Nos vamos a nuestro explorador y ponemos la IP del balanceador.
 
 # Resultado
-![Imagen 17](Fotos/13.png)
+![Imagen 17](Fotos/17.png)
 
 Pero como queremos que nos muestre la página con un certificado, vamos a instalar Certbot y configurar un nombre de dominio.
 
