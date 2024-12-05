@@ -34,14 +34,6 @@ Primero, creamos nuestras VPC donde vamos a alojar nuestras dos subredes: la sub
 ![Imagen 2](Fotos/2.png)
 ![Imagen 3](Fotos/3.png)
 
-Editamos reglas de entrada.
-
-![Imagen 4](Fotos/4.png)
-
-Editamos las reglas de salida.
-
-![Imagen 5](Fotos/5.png)
-
 Creamos las instancias. Las instancias que he usado son Debian.
 
 ![Imagen 6](Fotos/6.png)
@@ -59,10 +51,6 @@ Luego nos vamos a asociar una dirección IP elástica para tener acceso a Intern
 
 ![Imagen 10](Fotos/10.png)
 
-Aquí podemos ver que nos la ha asociado al balanceador.
-
-![Imagen 11](Fotos/11.png)
-
 Se me olvidaba decir que tenemos que poner una puerta de enlace a Internet para poder tener Internet en las otras máquinas mientras las configuramos y descargamos los archivos necesarios.
 
 ![Imagen 12](Fotos/12.png)
@@ -77,24 +65,16 @@ A continuación, dentro del balanceador copiamos lo siguiente.
 
 ![Imagen 14](Fotos/14.png)
 
-Luego de copiar lo anterior, habilitamos el sitio web con `a2ensite` y le damos los permisos.
+Luego de copiar lo anterior, habilitamos el sitio web con `a2ensite`.
 
 Nos vamos a nuestro explorador y ponemos la IP del balanceador.
-
-![Imagen 15](Fotos/15.png)
-![Imagen 16](Fotos/16.png)
 
 # Resultado
 ![Imagen 17](Fotos/17.png)
 
 Pero como queremos que nos muestre la página con un certificado, vamos a instalar Certbot y configurar un nombre de dominio.
 
-![Imagen 18](Fotos/18.png)
-![Imagen 19](Fotos/19.png)
 
-Comprobamos que el certificado está activo y asociado.
-
-![Imagen 20](Fotos/20.png)
 
 # Configuración del servidor de Apache 1
 
