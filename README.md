@@ -121,14 +121,13 @@ Lo primero es instalar `mariadb-server`.
 Nos vamos al archivo `50-server.conf` y donde está el `bind-address` ponemos la IP del servidor MySQL.
 
 ![Imagen 26](Fotos/26.png)
+![Imagen 28](Fotos/27.png)
+
 
 Entramos a la base de datos y metemos un usuario para la base de datos que hemos pasado antes.
 
-![Imagen 27](Fotos/27.png)
 ![Imagen 28](Fotos/28.png)
 ![Imagen 28](Fotos/29.png)
-
-
 
 Si todo sale bien, cuando ponemos nuestro nombre de DNS, saldrá la página donde podemos ingresar, eliminar o editar los usuarios de la base de datos.
 
