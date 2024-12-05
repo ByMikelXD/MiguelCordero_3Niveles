@@ -68,10 +68,13 @@ A continuación, dentro del balanceador copiamos lo siguiente.
 
 Luego de copiar lo anterior, habilitamos el sitio web con `a2ensite`.
 
+![Imagen 13](Fotos/13.png)
+![Imagen 14](Fotos/14.png)
+
 Nos vamos a nuestro explorador y ponemos la IP del balanceador.
 
 # Resultado
-![Imagen 17](Fotos/17.png)
+![Imagen 16](Fotos/16.png)
 
 Pero como queremos que nos muestre la página con un certificado, vamos a instalar Certbot y configurar un nombre de dominio.
 
@@ -100,8 +103,7 @@ Activamos el sitio que acabamos de configurar.
 
 Copiamos el repositorio git donde está la aplicación que queremos implementar en la página web.
 
-![Imagen 24](Fotos/24.png)
-![Imagen 25](Fotos/25.png)
+![Imagen 15](Fotos/15.png)
 
 Luego vamos al archivo `config` en el Apache 1.
 
