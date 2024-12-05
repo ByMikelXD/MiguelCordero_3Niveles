@@ -1,4 +1,3 @@
-![image](https://github.com/user-attachments/assets/dd7a89c4-c965-4382-b851-bbaf88e36525)# lamp_tres_niveles
 ### Balanceador de carga con infraestructura LAMP en tres niveles.
 
 # Índice
