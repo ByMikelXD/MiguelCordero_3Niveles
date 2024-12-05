@@ -33,9 +33,12 @@ Primero, creamos nuestras VPC donde vamos a alojar nuestras dos subredes: la sub
 ![Imagen 1](Fotos/1.png)
 ![Imagen 2](Fotos/2.png)
 ![Imagen 3](Fotos/3.png)
+![Imagen 4](Fotos/4.png)
 
-Creamos las instancias. Las instancias que he usado son Debian.
 
+Creamos las instancias. Las instancias que he usado son Ubuntu.
+
+![Imagen 5](Fotos/5.png)
 ![Imagen 6](Fotos/6.png)
 ![Imagen 7](Fotos/7.png)
 
@@ -52,8 +55,6 @@ Luego nos vamos a asociar una dirección IP elástica para tener acceso a Intern
 ![Imagen 10](Fotos/10.png)
 
 Se me olvidaba decir que tenemos que poner una puerta de enlace a Internet para poder tener Internet en las otras máquinas mientras las configuramos y descargamos los archivos necesarios.
-
-![Imagen 12](Fotos/12.png)
 
 # Configuración del balanceador
 
